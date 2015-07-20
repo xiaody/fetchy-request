@@ -1,0 +1,8 @@
+{
+  "pre-commit": [
+    "@mtfe/git-hooks-jshint"
+  ],
+  "pre-receive": [
+    "@mtfe/git-hooks-jshint"
+  ]
+}

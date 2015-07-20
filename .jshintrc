@@ -1,0 +1,18 @@
+{
+    "node": true,
+    "asi": true,
+    "laxcomma": true,
+    "undef": true,
+    "notypeof": true,
+    "sub": true,
+    "curly": false,
+    "strict": false,
+    "plusplus": false,
+    "bitwise": false,
+    "esnext": false,
+    "noyield": true,
+    "validthis": true,
+    "globals": {
+        "Promise": true
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "fetchy-request",
+  "version": "0.8.5",
+  "description": "Request done right",
+  "repository": "xiaody/fetchy-request",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test-node.$(node --version|cut -d. -f1)"
+  },
+  "keywords": [
+    "request",
+    "fetch",
+    "promise",
+    "retry"
+  ],
+  "author": "xiaodongyang@meituan.com",
+  "license": "MIT",
+  "dependencies": {
+    "event-emitter": "^0.3.3",
+    "http-proxy-agent": "^0.2.6",
+    "qs": "^2.4.1",
+    "retry": "^0.6.1"
+  },
+  "devDependencies": {
+    "bluebird": "^2.9.25",
+    "co": "^4.5.1",
+    "gulp": "^3.8.11",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jscs-stylish": "^1.1.0",
+    "gulp-jshint": "^1.10.0",
+    "mocha": "^2.2.1",
+    "nock": "^1.6.1",
+    "sinon": "^1.14.1"
+  }
+}
