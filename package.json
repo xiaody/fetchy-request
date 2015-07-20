@@ -1,11 +1,12 @@
 {
   "name": "fetchy-request",
-  "version": "0.8.5",
+  "version": "0.8.6",
   "description": "Request done right",
   "repository": "xiaody/fetchy-request",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test-node.$(node --version|cut -d. -f1)"
+    "test": "mocha test-node.$(node --version|cut -d. -f1)",
+    "cover": "istanbul cover ./node_modules/.bin/_mocha test-node.v0"
   },
   "keywords": [
     "request",
@@ -28,6 +29,7 @@
     "gulp-jscs": "^1.6.0",
     "gulp-jscs-stylish": "^1.1.0",
     "gulp-jshint": "^1.10.0",
+    "istanbul": "^0.3.17",
     "mocha": "^2.2.1",
     "nock": "^1.6.1",
     "sinon": "^1.14.1"

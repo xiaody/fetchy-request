@@ -1,4 +1,6 @@
+[![npm version](https://badge.fury.io/js/fetchy-request.svg)](http://badge.fury.io/js/fetchy-request)
 [![Build Status](https://travis-ci.org/xiaody/fetchy-request.svg)](https://travis-ci.org/xiaody/fetchy-request)
+[![Dependency Status](https://david-dm.org/xiaody/fetchy-request.svg)](https://david-dm.org/xiaody/fetchy-request)
 
 A simple way to make simple http requests.
 
