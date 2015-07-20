@@ -1,9 +1,11 @@
+[![Build Status](https://travis-ci.org/xiaody/fetchy-request.svg)](https://travis-ci.org/xiaody/fetchy-request)
+
 A simple way to make simple http requests.
 
 ## Install
 
 ```bash
-mnpm install --save fetchy-request
+npm install --save fetchy-request
 ## Notice: if you are using a legacy node version
 ## which does not contain a native Promise,
 ## please install and use a polyfill by yourself.
