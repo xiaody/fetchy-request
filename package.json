@@ -1,6 +1,6 @@
 {
   "name": "fetchy-request",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "description": "Request done right",
   "repository": "xiaody/fetchy-request",
   "main": "index.js",

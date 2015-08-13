@@ -32,11 +32,12 @@ function _request (options) {
         , timeout = options.timeout
 
     var uriParsed = url.parse(uri)
-    var request = (uriParsed.protocol === 'https:') ? https.request : http.request
+    var isHttps = uriParsed.protocol === 'https:'
+    var request = isHttps ? https.request : http.request
 
     var opts = {
         hostname: uriParsed.hostname
-        , port: uriParsed.port || 80
+        , port: uriParsed.port || (isHttps ? 443 : 80)
         , path: uriParsed.path
         , method: method
         , headers: headers || {}
